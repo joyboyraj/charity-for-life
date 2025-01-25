@@ -1,0 +1,164 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f8f9fa;
+    color: #333;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    background-color: #212529;
+    display: flex; /* Added for flexbox layout */
+    justify-content: space-between; /* Added for spacing */
+}
+
+.navbar-brand span {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1rem;
+    padding: 0.5rem 1rem; /* Ensure consistent padding */
+}
+
+.nav-link:hover {
+    background-color: #495057;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Donor Container */
+.donor-container {
+    background-color: #f8f9fa;
+    padding: 30px; /* Increased padding for better spacing */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Added margin to separate from other sections */
+}
+
+.donor-container h2 {
+    font-size: 2.5rem; /* Increased font size for better visibility */
+    font-weight: 600;
+    color: #333;
+}
+
+.donor-container p {
+    font-size: 1.2rem; /* Increased font size for better readability */
+    color: #555;
+}
+
+.donor-container .row {
+    margin: 0; /* Remove default margin */
+}
+
+.donor-container .col-md-4 {
+    padding: 0; /* Remove padding to eliminate spaces between images */
+}
+
+/* Video Section */
+.video-header {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.video-heading {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Welcome Section */
+.welcome-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Achievements Section */
+.achievements-section {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.achievement-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.achievement-card {
+    flex: 1 1 30%;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.achievement-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.achievement-card h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #007bff;
+}
+
+/* Footer */
+.footer {
+    background: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
